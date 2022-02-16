@@ -25,18 +25,15 @@
 <head>
     
       
-    <!-- linking the stylesheet(CSS) -->
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
   
 <body>
       
-    <!-- input tag -->
     <input id="searchbar" onkeyup="search_animal()" type="text"
         name="search" placeholder="Search animals..">
     <a href="https://natan0202.github.io/">Recarregar</a>
       
-    <!-- ordered list -->
     <ol  id='list'>
         <li style="display: none;" class="animals">1E-mail: marketing@construtoramoinho.com.br / Razão Social: RUTE MARIA GOEDERT KROON EIRELI / CNPJ: 15.707.171/0001-22/<li>
         <li style="display: none;" class="animals">E-mail: carlos@novitah.com / Razão Social: NOVITAH COMERCIO DE ACESSORIOS DE MODA EIRELI / CNPJ: 29.971.267/0001-08</li>
@@ -46,9 +43,7 @@
       
     <!-- linking javascript -->
     <script src="./animals.js"></script>
-</body>
-  
-</html>
+
 <script>
    
      function search_animal() {
