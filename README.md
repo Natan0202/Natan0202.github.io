@@ -17,23 +17,5 @@
 
 </html>
 <script>
-    pessoas = ["Nome: Natan | Idade: 19 | Local: Rio de Janeiro", "Nome: Gabriel | Idade: 20 | Local: Rio de Janeiro", "Nome: João | Idade: 30 | Local: Rio de Janeiro"]
-    t = ""
-    for(i in pessoas){
-        t += "<li>"+pessoas[i]+"</li>"
-        pessoas[i] = pessoas[i].toLowerCase()
-    }
-    lista.innerHTML = t
-    pesquisa.onkeyup=function(e){
-        t = this.value
-        r = new RegExp(t,"g")
-        for(i in pessoas){
-            if(pessoas[i].match(r)){
-                lista.children[i].removeAttribute("style")
-            }
-            else{
-                lista.children[i].style.display="none"
-            }
-        }
-    }
+    
 </script>
