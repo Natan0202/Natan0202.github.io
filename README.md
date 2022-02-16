@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html>
-    <style>
+        <style>
            
  
-   input[type=text] {
-      width: 30%;
-      -webkit-transition: width 0.15s ease-in-out;
-      transition: width 0.15s ease-in-out;
-   }
- 
- 
-   input[type=text]:focus {
-     width: 70%;
-   }
- 
-  #list{
-    font-size:  1.5em;
-    margin-left: 90px;
-   }
- 
-.animals{
-   display: list-item;    
-  } 
+           input[type=text] {
+              width: 30%;
+              -webkit-transition: width 0.15s ease-in-out;
+              transition: width 0.15s ease-in-out;
+           }
+
+
+           input[type=text]:focus {
+             width: 70%;
+           }
+
+          #list{
+            font-size:  1.5em;
+            margin-left: 90px;
+           }
+
+        .animals{
+           display: list-item;    
+          } 
       </style>
 <head>
     <title>
