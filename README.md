@@ -44,7 +44,7 @@
       
     
     <ol id='list'>
-        <li class="animals">Cat</li>
+        <li class="animals">Cat : Age - 5 : Name: Steve</li>
         <li class="animals">Dog</li>
         <li class="animals">Elephant</li>
         <li class="animals">Fish</li>
