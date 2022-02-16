@@ -47,7 +47,7 @@
       
     <script src="./animals.js"></script>
 
-<script>
+
       
           function search_animal() {
           let input = document.getElementById('searchbar').value
@@ -63,4 +63,3 @@
               }
           }
       }
-</script>
