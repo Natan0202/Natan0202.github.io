@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-        <style>
+       <style>
            
  
            input[type=text] {
@@ -24,10 +24,7 @@
           } 
       </style>
 <head>
-    <title>
-        Creating Search Bar using HTML
-        CSS and Javascript
-    </title>
+    
       
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
