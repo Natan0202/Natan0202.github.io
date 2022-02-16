@@ -1,41 +1,48 @@
-
+<!DOCTYPE html>
 <html>
       <style>
-           
+           #searchbar{
+     margin-left: 15%;
+     padding:15px;
+     border-radius: 10px;
+   }
  
-         input[type=text] {
-            width: 30%;
-            -webkit-transition: width 0.15s ease-in-out;
-            transition: width 0.15s ease-in-out;
-         }
+   input[type=text] {
+      width: 30%;
+      -webkit-transition: width 0.15s ease-in-out;
+      transition: width 0.15s ease-in-out;
+   }
  
-   
-         input[type=text]:focus {
-           width: 70%;
-         }
-
-        #list{
-          font-size:  1.5em;
-          margin-left: 90px;
-         }
-
-      .animals{
-         display: list-item;    
-        } 
+   /* When the input field gets focus,
+        change its width to 100% */
+   input[type=text]:focus {
+     width: 70%;
+   }
+ 
+  #list{
+    font-size:  1.5em;
+    margin-left: 90px;
+   }
+ 
+.animals{
+   display: list-item;    
+  } 
       </style>
 <head>
-    
+    <title>
+        Creating Search Bar using HTML
+        CSS and Javascript
+    </title>
       
-  
+    <!-- linking the stylesheet(CSS) -->
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
   
 <body>
       
-    
-    <input id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="Search animals..">
-      
-    
+    <!-- input tag -->
+    <input id="searchbar" onkeyup="search_animal()" type="text"
+        name="search" placeholder="Search animals..">
     <a href="teste2.html">Recarregar</a>
       
     <!-- ordered list -->
@@ -53,25 +60,25 @@
         <li style="display: none;" class="animals">Horse</li>
     </ol>
       
+    <!-- linking javascript -->
     <script src="./animals.js"></script>
 </body>
   
 </html>
 <script>
+    // JavaScript code
+function search_animal() {
+    let input = document.getElementById('searchbar').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('animals');
       
-      function search_animal() {
-          let input = document.getElementById('searchbar').value
-          input=input.toLowerCase();
-          let x = document.getElementsByClassName('animals');
-
-          for (i = 0; i < x.length; i++) { 
-              if (!x[i].innerHTML.toLowerCase().includes(input)) {
-                  x[i].style.display="none";
-              }
-              else {
-                  x[i].style.display="list-item";                 
-              }
-          }
-      }
-                                   
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
+    }
+}
 </script>
