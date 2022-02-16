@@ -37,7 +37,7 @@
     <a href="https://natan0202.github.io/">Recarregar</a>
       
     <!-- ordered list -->
-   <ol  id='list'>
+    <ol  id='list'>
         <li style="display: none;" class="animals">Cat : Age - 5 : Name: Steve</li>
         <li style="display: none;" class="animals">Dog</li>
         <li style="display: none;" class="animals">Elephant</li>
@@ -51,7 +51,6 @@
         <li style="display: none;" class="animals">Horse</li>
     </ol>
       
-    <!-- linking javascript -->
     <script src="./animals.js"></script>
 </body>
   
