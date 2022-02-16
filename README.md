@@ -55,9 +55,8 @@
     <!-- linking javascript -->
     <script src="./animals.js"></script>
 
-<script>
 
-    // JavaScript code
+
     function search_animal() {
         let input = document.getElementById('searchbar').value
         input=input.toLowerCase();
@@ -72,4 +71,4 @@
             }
         }
     }
-</script>
+
