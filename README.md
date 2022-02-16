@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html>
-      <style>
-           #searchbar{
-     margin-left: 15%;
-     padding:15px;
-     border-radius: 10px;
-   }
+    <style>
+           
  
    input[type=text] {
       width: 30%;
@@ -13,8 +9,7 @@
       transition: width 0.15s ease-in-out;
    }
  
-   /* When the input field gets focus,
-        change its width to 100% */
+ 
    input[type=text]:focus {
      width: 70%;
    }
@@ -34,18 +29,15 @@
         CSS and Javascript
     </title>
       
-    <!-- linking the stylesheet(CSS) -->
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
   
 <body>
       
-    <!-- input tag -->
     <input id="searchbar" onkeyup="search_animal()" type="text"
         name="search" placeholder="Search animals..">
     <a href="teste2.html">Recarregar</a>
       
-    <!-- ordered list -->
     <ol  id='list'>
         <li style="display: none;" class="animals">Cat : Age - 5 : Name: Steve</li>
         <li style="display: none;" class="animals">Dog</li>
@@ -60,13 +52,11 @@
         <li style="display: none;" class="animals">Horse</li>
     </ol>
       
-    <!-- linking javascript -->
     <script src="./animals.js"></script>
 </body>
   
 </html>
 <script>
-    // JavaScript code
 function search_animal() {
     let input = document.getElementById('searchbar').value
     input=input.toLowerCase();
