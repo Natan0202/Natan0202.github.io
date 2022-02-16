@@ -36,7 +36,7 @@
       
     <input id="searchbar" onkeyup="search_animal()" type="text"
         name="search" placeholder="Search animals..">
-    <a href="teste2.html">Recarregar</a>
+    <a href="https://natan0202.github.io/">Recarregar</a>
       
     <ol  id='list'>
         <li style="display: none;" class="animals">Cat : Age - 5 : Name: Steve</li>
