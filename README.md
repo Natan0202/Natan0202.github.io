@@ -34,17 +34,17 @@
         CSS and Javascript
     </title>
       
-    <!-- linking the stylesheet(CSS) -->
+  
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
   
 <body>
       
-    <!-- input tag -->
+    
     <input id="searchbar" onkeyup="search_animal()" type="text"
         name="search" placeholder="Search animals..">
       
-    <!-- ordered list -->
+    
     <ol id='list'>
         <li class="animals">Cat</li>
         <li class="animals">Dog</li>
@@ -59,13 +59,11 @@
         <li class="animals">Horse</li>
     </ol>
       
-    <!-- linking javascript -->
     <script src="./animals.js"></script>
 </body>
   
 </html>
 <script>
-    // JavaScript code
 function search_animal() {
     let input = document.getElementById('searchbar').value
     input=input.toLowerCase();
