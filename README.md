@@ -24,12 +24,8 @@
               } 
       </style>
 <head>
-    <title>
-        Creating Search Bar using HTML
-        CSS and Javascript
-    </title>
+   
       
-    <!-- linking the stylesheet(CSS) -->
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
   
@@ -41,7 +37,7 @@
     <a href="https://natan0202.github.io/">Recarregar</a>
       
     <!-- ordered list -->
-    <ol  id='list'>
+   <ol  id='list'>
         <li style="display: none;" class="animals">Cat : Age - 5 : Name: Steve</li>
         <li style="display: none;" class="animals">Dog</li>
         <li style="display: none;" class="animals">Elephant</li>
@@ -62,7 +58,7 @@
 </html>
 <script>
     
-            function search_animal() {
+          function search_animal() {
           let input = document.getElementById('searchbar').value
           input=input.toLowerCase();
           let x = document.getElementsByClassName('animals');
