@@ -62,6 +62,7 @@
   
 </html>
 <script>
+      
       function search_animal() {
           let input = document.getElementById('searchbar').value
           input=input.toLowerCase();
