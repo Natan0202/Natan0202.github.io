@@ -43,18 +43,21 @@
     <input id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="Search animals..">
       
     
-    <ol id='list'>
-        <li class="animals">Cat : Age - 5 : Name: Steve</li>
-        <li class="animals">Dog : Age - 6 : Name: Scooby</li>
-        <li class="animals">Elephant : Age - 7 : Name: Dumbo</li>
-        <li class="animals">Fish : Age - 1 : Name: Nemo</li>
-        <li class="animals">Gorilla : Age - 2 : Name: Cesar</li>
-        <li class="animals">Monkey : Age - 9 : Name: Mac/li>
-        <li class="animals">Turtle : Age - 2 : Name: Ninja</li>
-        <li class="animals">Whale : Age - 3 : Name: Mike</li>
-        <li class="animals">Aligator : Age - 5 : Name: Largato/li>
-        <li class="animals">Donkey : Age - 4 : Name: Scri</li>
-        <li class="animals">Horse : Age - 12 : Name: Cavalo</li>
+    <a href="teste2.html">Recarregar</a>
+      
+    <!-- ordered list -->
+    <ol  id='list'>
+        <li style="display: none;" class="animals">Cat : Age - 5 : Name: Steve</li>
+        <li style="display: none;" class="animals">Dog</li>
+        <li style="display: none;" class="animals">Elephant</li>
+        <li style="display: none;" class="animals">Fish</li>
+        <li style="display: none;" class="animals">Gorilla</li>
+        <li style="display: none;" class="animals">Monkey</li>
+        <li style="display: none;" class="animals">Turtle</li>
+        <li style="display: none;" class="animals">Whale</li>
+        <li style="display: none;" class="animals">Aligator</li>
+        <li style="display: none;" class="animals">Donkey</li>
+        <li style="display: none;" class="animals">Horse</li>
     </ol>
       
     <script src="./animals.js"></script>
