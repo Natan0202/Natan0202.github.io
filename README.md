@@ -48,7 +48,6 @@
     <!-- linking javascript -->
     <script src="./animals.js"></script>
       <script src="pesquisa.js"></script>
-<script>
       
           function search_animal() {
               let input = document.getElementById('searchbar').value
@@ -65,4 +64,3 @@
               }
           }
 
-</script>
