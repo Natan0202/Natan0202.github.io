@@ -1,11 +1,7 @@
 
 <html>
       <style>
-           #searchbar{
-                 margin-left: 15%;
-                 padding:15px;
-                 border-radius: 10px;
-            }
+           
  
          input[type=text] {
             width: 30%;
