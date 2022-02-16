@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html>
       <style>
-        
+           #searchbar{
+     margin-left: 15%;
+     padding:15px;
+     border-radius: 10px;
+   }
  
-               input[type=text] {
-                  width: 30%;
-                  -webkit-transition: width 0.15s ease-in-out;
-                  transition: width 0.15s ease-in-out;
-               }
-
-
-               input[type=text]:focus {
-                 width: 70%;
-               }
-
-              #list{
-                font-size:  1.5em;
-                margin-left: 90px;
-               }
-
-            .animals{
-               display: list-item;    
-              } 
+   input[type=text] {
+      width: 30%;
+      -webkit-transition: width 0.15s ease-in-out;
+      transition: width 0.15s ease-in-out;
+   }
+ 
+   /* When the input field gets focus,
+        change its width to 100% */
+   input[type=text]:focus {
+     width: 70%;
+   }
+ 
+  #list{
+    font-size:  1.5em;
+    margin-left: 90px;
+   }
+ 
+.animals{
+   display: list-item;    
+  } 
       </style>
 <head>
-   
+    <title>
+        Creating Search Bar using HTML
+        CSS and Javascript
+    </title>
       
+    <!-- linking the stylesheet(CSS) -->
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
   
@@ -38,37 +47,31 @@
       
     <!-- ordered list -->
     <ol  id='list'>
-        <li style="display: none;" class="animals">Cat : Age - 5 : Name: Steve</li>
-        <li style="display: none;" class="animals">Dog</li>
-        <li style="display: none;" class="animals">Elephant</li>
-        <li style="display: none;" class="animals">Fish</li>
-        <li style="display: none;" class="animals">Gorilla</li>
-        <li style="display: none;" class="animals">Monkey</li>
-        <li style="display: none;" class="animals">Turtle</li>
-        <li style="display: none;" class="animals">Whale</li>
-        <li style="display: none;" class="animals">Aligator</li>
-        <li style="display: none;" class="animals">Donkey</li>
-        <li style="display: none;" class="animals">Horse</li>
+        <li style="display: none;" class="animals">1E-mail: marketing@construtoramoinho.com.br / Razão Social: RUTE MARIA GOEDERT KROON EIRELI / CNPJ: 15.707.171/0001-22/<li>
+        <li style="display: none;" class="animals">E-mail: carlos@novitah.com / Razão Social: NOVITAH COMERCIO DE ACESSORIOS DE MODA EIRELI / CNPJ: 29.971.267/0001-08</li>
+        <li style="display: none;" class="animals">E-mail: comercial2@cdmv.com.br / Razão Social: CENTRO DE DESENVOLVIMENTO DA MEDICINA VETERINARIA, CURSOS E / CNPJ: 27.152.618/0001-23</li>
+        
     </ol>
       
+    <!-- linking javascript -->
     <script src="./animals.js"></script>
 </body>
   
 </html>
 <script>
-    
-          function search_animal() {
-          let input = document.getElementById('searchbar').value
-          input=input.toLowerCase();
-          let x = document.getElementsByClassName('animals');
-
-          for (i = 0; i < x.length; i++) { 
-              if (!x[i].innerHTML.toLowerCase().includes(input)) {
-                  x[i].style.display="none";
-              }
-              else {
-                  x[i].style.display="list-item";                 
-              }
-          }
-      }
+    // JavaScript code
+function search_animal() {
+    let input = document.getElementById('searchbar').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('animals');
+      
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
+    }
+}
 </script>
