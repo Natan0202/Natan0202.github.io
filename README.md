@@ -2,30 +2,30 @@
 <html>
       <style>
            #searchbar{
-     margin-left: 15%;
-     padding:15px;
-     border-radius: 10px;
-   }
+                 margin-left: 15%;
+                 padding:15px;
+                 border-radius: 10px;
+            }
  
-   input[type=text] {
-      width: 30%;
-      -webkit-transition: width 0.15s ease-in-out;
-      transition: width 0.15s ease-in-out;
-   }
+         input[type=text] {
+            width: 30%;
+            -webkit-transition: width 0.15s ease-in-out;
+            transition: width 0.15s ease-in-out;
+         }
  
    
-   input[type=text]:focus {
-     width: 70%;
-   }
- 
-  #list{
-    font-size:  1.5em;
-    margin-left: 90px;
-   }
- 
-.animals{
-   display: list-item;    
-  } 
+         input[type=text]:focus {
+           width: 70%;
+         }
+
+        #list{
+          font-size:  1.5em;
+          margin-left: 90px;
+         }
+
+      .animals{
+         display: list-item;    
+        } 
       </style>
 <head>
     <title>
@@ -40,8 +40,7 @@
 <body>
       
     
-    <input id="searchbar" onkeyup="search_animal()" type="text"
-        name="search" placeholder="Search animals..">
+    <input id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="Search animals..">
       
     
     <ol id='list'>
