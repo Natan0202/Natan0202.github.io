@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-       <style>
+      
            
  
            input[type=text] {
@@ -54,7 +54,8 @@
   
 </html>
 <script>
-function search_animal() {
+       
+     function search_animal() {
     let input = document.getElementById('searchbar').value
     input=input.toLowerCase();
     let x = document.getElementsByClassName('animals');
