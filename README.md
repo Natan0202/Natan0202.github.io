@@ -1,119 +1,41 @@
-<!--
-	Parallelism by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-<head>
-	<title>Biblioteca</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-</head>
-	<body class="is-preload">
+# ActiveBox
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+One Page Multi Purpose Website Template created by [Kamal Chaneman](http://kamalchaneman.com/)
 
-				<!-- Main -->
-					<section id="main">
+[Demo](http://kamalchaneman.com/activebox/)
 
-						<!-- Items -->
-							<div class="items">
+[WordPress Theme](https://github.com/nguyenvanduocit/ActiveBox/)
 
-								<div class="item intro span-2">
-									<h1>Nosso catálogo</h1>
-									<p>Veja o que temos em nossa livraria<br /></p>
-								</div>
+## License
 
-								<article class="item thumb span-1">
-									<h2>Cristianismo Puro e Simples</h2>
-									<a href="livros/simplesPuro.jpg" class="image"><img src="livros/simplesPuro.jpg" alt=""></a>
-								</article>
+Use it freely but please do not republish, distribute or sell "as-is".
 
-								<article class="item thumb span-2">
-									<h2>O mundo de Sofia</h2>
-									<a href="livros/soifa.jpg" class="image"><img src="livros/soifa.jpg" alt=""></a>
-								</article>
+## Credits 
 
-								<article class="item thumb span-1">
-									<h2>O Principe</h2>
-									<a href="livros/principe.jpg" class="image"><img src="livros/principe.jpg" alt=""></a>
-								</article>
+### Bootstrap
 
-								<!--<article class="item thumb span-1">
-									<h2>Elysium</h2>
-									<a href="images/fulls/04.jpg" class="image"><img src="images/thumbs/04.jpg" alt=""></a>
-								</article>-->
+[Bootstrap](http://getbootstrap.com/) by Twitter. Licensed under [MIT](https://github.com/twbs/bootstrap/blob/master/LICENSE)
 
-								<article class="item thumb span-3">
-									<h2>O agir inivsível de Deus</h2>
-									<a href="livros/agir.jpg" class="image"><img src="livros/agir.jpg" alt=""></a>
-								</article>
+### FancyBox
 
-								<!--<article class="item thumb span-1">
-									<h2>The Pursuit</h2>
-									<a href="images/fulls/06.jpg" class="image"><img src="images/thumbs/06.jpg" alt=""></a>
-								</article>
+[FancyBox](http://fancyapps.com/fancybox/) by fancyApps. Licensed under [CC BY-NC 3.0](http://creativecommons.org/licenses/by-nc/3.0/)
 
-								<article class="item thumb span-2">
-									<h2>Boundless</h2>
-									<a href="images/fulls/07.jpg" class="image"><img src="images/thumbs/07.jpg" alt=""></a>
-								</article>
+### FlexSlider
 
-								<article class="item thumb span-2">
-									<h2>The Spectators</h2>
-									<a href="images/fulls/08.jpg" class="image"><img src="images/thumbs/08.jpg" alt=""></a>
-								</article>-->
+[FlexSlider](http://www.woothemes.com/flexslider/) by WooThemes. Licensed under [GNU GENERAL PUBLIC LICENSE](https://github.com/woothemes/FlexSlider/blob/master/LICENSE.md)
 
-							</div>
+### Waypoints
 
-						<!-- Items -->
-							<div class="items">
+[Waypoints](https://github.com/imakewebthings/waypoints) by Caleb Troughton. Licensed under [MIT](https://github.com/imakewebthings/waypoints/blog/master/licenses.txt)
 
-								<!--<article class="item thumb span-3"><h2>Kingdom of the Wind</h2><a href="images/fulls/05.jpg" class="image"><img src="images/thumbs/05.jpg" alt=""></a></article>
-								<article class="item thumb span-1"><h2>The Pursuit</h2><a href="images/fulls/06.jpg" class="image"><img src="images/thumbs/06.jpg" alt=""></a></article>
-								<article class="item thumb span-2"><h2>Boundless</h2><a href="images/fulls/07.jpg" class="image"><img src="images/thumbs/07.jpg" alt=""></a></article>
-								<article class="item thumb span-2"><h2>The Spectators</h2><a href="images/fulls/08.jpg" class="image"><img src="images/thumbs/08.jpg" alt=""></a></article>
-								<article class="item thumb span-1"><h2>You really got me</h2><a href="images/fulls/01.jpg" class="image"><img src="images/thumbs/01.jpg" alt=""></a></article>
-								<article class="item thumb span-2"><h2>Ad Infinitum</h2><a href="images/fulls/02.jpg" class="image"><img src="images/thumbs/02.jpg" alt=""></a></article>
-								<article class="item thumb span-1"><h2>Different.</h2><a href="images/fulls/03.jpg" class="image"><img src="images/thumbs/03.jpg" alt=""></a></article>
-								<article class="item thumb span-2"><h2>Kingdom of the Wind</h2><a href="images/fulls/05.jpg" class="image"><img src="images/thumbs/05.jpg" alt=""></a></article>
-								<article class="item thumb span-1"><h2>Elysium</h2><a href="images/fulls/04.jpg" class="image"><img src="images/thumbs/04.jpg" alt=""></a></article>-->
+### Animate.css
 
-							</div>
+[Animate.css](https://daneden.github.io/animate.css/) by Dan Eden
 
-					</section>
+### Font Awesome Icons 
 
-				<!-- Footer -->
-					<section id="footer">
-						<section>
-							<!--<p>This is <strong>Parallelism</strong>, a responsive portfolio site template by <a href="http://html5up.net">HTML5 UP</a>. Free for personal
-							and commercial use under the <a href="http://html5up.net/license">Creative Commons Attribution</a> license.</p>
-						</section>-->
-						<section>
-							<ul class="icons">
-								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://www.instagram.com/novafiladelfiajp/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="https://web.facebook.com/novafiladelfiajp" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
-							<!--<ul class="copyright">
-								<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>-->
-						</section>
-					</section>
+[Font Awesome](http://fortawesome.github.io/Font-Awesome/) by Dave Gandy. Licensed under [MIT](http://opensource.org/licenses/mit-license.html)
 
-			</div>
+### Elegant Icons 
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+[Elegant Icons](http://www.elegantthemes.com/blog/resources/elegant-icon-font/) by Elegant Themes. Licensed under [MIT](http://opensource.org/licenses/mit-license.html)
