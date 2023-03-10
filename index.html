@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive Portfolio Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    Natan
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link active-link">
+                                <i class="uil uil-user nav__icon"></i> Sobre
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link active-link">
+                                <i class="uil uil-file nav__icon"></i> Skills
+                            </a>
+                        </li>
+                        <!--<li class="nav__item">
+                            <a href="#services" class="nav__link active-link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Serviços?
+                            </a>
+                        </li>-->
+                        <li class="nav__item">
+                            <a href="https://github.com/Natan0202" class="nav__link active-link">
+                                <i class="uil uil-scenery nav__icon"></i> Portifólio
+                            </a>    
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link active-link">
+                                <i class="uil uil-message nav__icon"></i> Contato
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id = "nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/natan-siqueira-319b55164/" target = "_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin"></i>
+                            </a>
+                           
+                            <a href="https://github.com/Natan0202" target = "_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+                        <div class="home__img">
+                            <svg class = "home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    
+                                    <image class = "home__blob-img" x = '-80' y = '2' xlink:href="assets/img/natan_s_fundo.png"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title">
+                                Olá, sou Natan
+                            </h1>
+                            <h3 class="home__subtitle">
+                                Back-End Developer 
+                            </h3>
+                            <p class="home__description">
+                                Analista de Sistema - Voltado para Back-End e Análise d
+                            </p>
+                            <a href="#contact" class="button button--flex">
+                                Entre em Contato <i class="uil uil-message button"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse home__scroll-mouse"></i>
+                            <span class="home__scroll-name">
+                                Para baixo
+                            </span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">
+                    Sobre Mim
+                </h2>
+                <span class="section__subtitle">
+                    Uma introdução
+                </span>
+                <div class="about__container container grid">
+                    <img src="assets/img/natan.jpg" alt="" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description">
+                            Olá, tenho 21 anos, nascido no Rio de Janeiro. Apaixonado por tecnologia e na programação foi onde me achei. 
+                            Pretendo seguir nessa área e crescer, buscando sempre conhecimento.                        </p>
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">
+                                    1
+                                </span>
+                                <span class="about__info-name">
+                                    anos <br>
+                                    Experiência
+                                </span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">
+                                    +6
+                                </span>
+                                <span class="about__info-name">
+                                    anos <br>
+                                    Estudando
+                                </span>
+                            </div>
+                            <!-- <div>
+                                <span class="about__info-title">
+                                    08+
+                                </span>
+                                <span class="about__info-name">
+                                    Years <br>
+                                    Experience
+                                </span>
+                            </div> -->
+                        </div>
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/Cv2 - Natan Menezes - Prog.pdf" class="button button--flex">
+                                Download CV<i class="uil uil-file-download button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">
+                    Skills
+                </h2>
+                <span class="section__subtitle">
+                    Habilidades
+                </span>
+
+                <div class="skills container container grid">
+                    <div> <!--min 55:25 -->
+                        <div class="skills__content">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+                                
+
+                                <div>
+                                    <h1 class="skills__title">
+                                        Back-End Developer
+                                    </h1>
+                                    <span class="skills__subtitle">
+                                        colocar um texto sobre como me saio ao invês de números
+                                    </span>
+
+                                    <i class="uil uil-angle-down skills__arrow"></i>
+                                    <div class="skills__list grid">
+                                        <div class="skills__data">
+                                            <div class="skills__titles">
+                                                <h3 class="skills__name">Python</h3>
+                                                <span class="skills__number">Junior</span>
+                                            </div>
+                                            <div class="skiills__bar">
+                                                <span class="skills__percentage skills__python">
+
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="skills__data">
+                                            <div class="skills__titles">
+                                                <h3 class="skills__name">PHP</h3>
+                                                <span class="skills__number">Junior<span>
+                                            </div>
+                                            <div class="skiills__bar">
+                                                <span class="skills__percentage skills__php">
+                                                    
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="skills__data">
+                                            <div class="skills__titles">
+                                                <h3 class="skills__name">SQL</h3>
+                                                <span class="skills__number">Junior</span>
+                                            </div>
+                                            <div class="skiills__bar">
+                                                <span class="skills__percentage skills__sql">
+                                                    
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="skills__data">
+                                            <div class="skills__titles">
+                                                <h3 class="skills__name">JavaScript</h3>
+                                                <span class="skills__number">Junior</span>
+                                            </div>
+                                            <div class="skiills__bar">
+                                                <span class="skills__percentage skills__java">
+                                                    
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                                    <!--==================== SKILLS 2====================-->
+
+                        <div class="skills__content">
+                                
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+                <h2 class="section__title">Qualificação</h2>
+                <span class="section__subtitle">Jornada de emprego e estudo</span>
+                
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex">
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Educação
+                        </div>
+
+                        
+
+                        <div class="qualification__sections">
+                            <div class="qualification__content">
+                                            <!--==================== QUALIFICATION 1 ====================-->
+                                
+                                <div class="qualification__data">
+                                    <div>
+                                        <h3 class="qualification__title">
+                                            Técnico em Informática - Ensino Médio
+                                        </h3>
+                                        <span class="qualification__subtitle">
+                                            ETERJ - ESCOLA TÉCNICA DO RIO DE JANEIRO
+                                        </span>
+
+                                        <div class="qualification__calender">
+                                            <i class="uil uil-calendar-alt"></i>
+                                            2018 - 2020
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>      
+
+                                             <!--==================== QUALIFICATION 2 ====================-->
+                                
+                                <div class="qualification__data">
+                                    <div>
+                                        <h3 class="qualification__title">
+                                            UNESA - ESTÁCIO DE SÁ
+                                        </h3>
+                                        <span class="qualification__subtitle">
+                                            ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
+                                        </span>
+
+                                        <div class="qualification__calender">
+                                            <i class="uil uil-calendar-alt"></i>
+                                            2021 - 2023
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>    
+                                    
+
+                                             <!--==================== QUALIFICATION 3 ====================-->
+                                
+                                <div class="qualification__data">
+                                    <div>
+                                        <h3 class="qualification__title">
+                                            Curso de Língua Inglesa
+                                        </h3>
+                                        <span class="qualification__subtitle">
+                                            Cultura Inglesa
+                                        </span>
+
+                                        <div class="qualification__calender">
+                                            <i class="uil uil-calendar-alt"></i>
+                                            2020 - 2022
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>    
+
+                                
+                            </div>
+                        </div>
+
+                        
+
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <section class="project section">
+
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section">
+                
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Fale comigo</h2>
+                <span class="section__subtitle"></span>
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone-alt contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">
+                                    Fale comigo
+                                </h3>
+                                <span class="contact__subtitle">+55 21 98557-0548</span>
+                            </div>
+                        </div>
+                        <div class="contact__information">
+                            <i class="uil uil-envelope-minus contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">
+                                    Email
+                                </h3>
+                                <span class="contact__subtitle">natanmenezessiqueira13@hotmail.com</span>
+                            </div>
+                        </div>
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>                            <div>
+                                <h3 class="contact__title">
+                                    Local
+                                </h3>
+                                <span class="contact__subtitle">Rio de Janeiro - Nova Iguaçu</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">
+                            Natan
+                        </h1>
+                        <span class="footer__subtitle">Back-End Developer</span>
+                    </div>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#skills" class="footer__link">Skills/Formação</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contato</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__social">
+                        <a href="https://www.linkedin.com/in/natan-siqueira-319b55164/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Natan0202" target="_blank" class="footer__social">
+                            <i class="uil uil-github"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src=""></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
